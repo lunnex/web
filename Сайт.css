@@ -1,0 +1,118 @@
+.Канцтоварищ {
+  font-size: 40px;
+  font-family: "Century Gothic";
+  text-align: center;
+  width = "100%";
+}
+.Магазин_канцелярских_товаров {
+  font-size: 20px;
+  font-family: "Century Gothic";
+  line-height: 1.2;
+  text-align: center;
+  width = "100%";
+  display: block;
+}
+.ВходРегистрация {
+  font-size: 14px;
+  font-family: "Century Gothic";
+  color: rgb(0, 0, 0);
+  line-height: 1.2;
+  text-align: right;
+  margin-top: -45px;
+}
+.Knopki{
+  display: block;
+  border-top: 1px solid black;
+  margin-bottom: 20px;
+ 
+}
+.Akc{
+  border-width: 2px;
+  border-color: rgb(254, 201, 201);
+  border-style: solid;
+  border-radius: 29px;
+  background-color: rgb(254, 201, 201);
+  width: 100px;
+  height: 30px;
+  margin-top: 20px;
+ margin-left: 30px;
+  font-size: 16px;
+  font-family: "Century Gothic"; 
+}
+.Hit{
+  border-width: 2px;
+  border-color: rgb(254, 201, 201);
+  border-style: solid;
+  border-radius: 29px;
+  background-color: rgb(254, 201, 201);
+  width: 150px;
+  height: 30px;
+  margin-top: 20px;
+  margin-left: 190px;
+  font-size: 16px;
+  font-family: "Century Gothic"; 
+}
+.city{
+  border-width: 2px;
+  border-color: rgb(254, 201, 201);
+  border-style: solid;
+  border-radius: 29px;
+  background-color: rgb(254, 201, 201);
+  width: 100px;
+  height: 30px;
+  margin-top: 20px;
+  margin-right: 30px;
+  font-size: 16px;
+  font-family: "Century Gothic"; 
+  text-align: center;
+  appearance: none;
+
+}
+.Korz{
+  border-width: 2px;
+  border-color: rgb(254, 201, 201);
+  border-style: solid;
+  border-radius: 29px;
+  background-color: rgb(254, 201, 201);
+  width: 100px;
+  height: 30px;
+  margin-top: 20px;
+  margin-left: 0px;
+  font-size: 16px;
+  font-family: "Century Gothic";
+  margin-right: 30px;
+}
+.Block3{
+  background-color: rgb(122, 204, 200);
+  height: 40px;
+  padding-top: 20px;
+}
+.Kat{
+  font-size: 20px;
+  font-family: "Century Gothic";
+  margin-top: 0px;
+  margin-left: 30px;
+  display: block;
+  float: left
+}
+.Block4{
+    float:right;
+}
+.search{
+    border-radius: 15px;
+    height: 30px;
+    border-width: 0px;
+    margin-right: 0px;
+}
+.Nait{
+    border-radius: 15px;
+    height: 30px;
+    width: 100px;
+    border-width: 0px;
+    margin-right: 30px;
+    font-size: 16px;
+  font-family: "Century Gothic";
+}
+
+
+

@@ -1,24 +1,14 @@
-<<<<<<< HEAD
 *{
     font-family: "Century Gothic";
 }
 
 .Канцтоварищ {
   font-size: 40px;
-=======
-.Канцтоварищ {
-  font-size: 40px;
-  font-family: "Century Gothic";
->>>>>>> a67dc82626a8886031c824b35d8861f0733130c7
   text-align: center;
   width = "100%";
 }
 .Магазин_канцелярских_товаров {
   font-size: 20px;
-<<<<<<< HEAD
-=======
-  font-family: "Century Gothic";
->>>>>>> a67dc82626a8886031c824b35d8861f0733130c7
   line-height: 1.2;
   text-align: center;
   width = "100%";
@@ -26,10 +16,6 @@
 }
 .ВходРегистрация {
   font-size: 14px;
-<<<<<<< HEAD
-=======
-  font-family: "Century Gothic";
->>>>>>> a67dc82626a8886031c824b35d8861f0733130c7
   color: rgb(0, 0, 0);
   line-height: 1.2;
   text-align: right;
@@ -39,7 +25,6 @@
   display: block;
   border-top: 1px solid black;
   margin-bottom: 20px;
-<<<<<<< HEAD
 }
  
 ul{
@@ -171,9 +156,6 @@ ul{
     margin-right: 5%;
 }
     
-=======
- 
->>>>>>> a67dc82626a8886031c824b35d8861f0733130c7
 }
 .Akc{
   border-width: 2px;
@@ -238,10 +220,6 @@ ul{
 }
 .Kat{
   font-size: 20px;
-<<<<<<< HEAD
-=======
-  font-family: "Century Gothic";
->>>>>>> a67dc82626a8886031c824b35d8861f0733130c7
   margin-top: 0px;
   margin-left: 30px;
   display: block;
@@ -263,7 +241,6 @@ ul{
     border-width: 0px;
     margin-right: 30px;
     font-size: 16px;
-<<<<<<< HEAD
 }
 .container_slider_css{
     width:100%;
@@ -279,20 +256,6 @@ ul{
     opacity:0;
     width:100%
 }
-=======
-  font-family: "Century Gothic";
-}
-.container_slider_css{
-    margin:50px auto;
-    width:1280px;
-    height:500px;
-    overflow:hidden;
-    position:relative}
-.photo_slider_css{
-    position:absolute;
-    animation:round 16s infinite;
-    opacity:0;width:100%}
->>>>>>> a67dc82626a8886031c824b35d8861f0733130c7
 @keyframes round {
 25%{opacity:1}
 40%{opacity:0}
@@ -312,7 +275,6 @@ img:nth-child(4){animation-delay:0}
     height:190px}
 }
 
-<<<<<<< HEAD
 .add-in-purchase-list{
     margin-top:220px; 
     margin-left:160px
@@ -370,7 +332,5 @@ img:nth-child(4){animation-delay:0}
 .footer a{
     color: black;
 }
-=======
->>>>>>> a67dc82626a8886031c824b35d8861f0733130c7
 
 

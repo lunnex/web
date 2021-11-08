@@ -5,9 +5,21 @@
 <meta http-equiv="Content-Type" content="text/html;
 charset=utf8">
 <title>Коротких, Комарова, 11</title>
+<script>
+function Scroll1(){
+    const el = document.getElementById('Raspr');
+          el.scrollIntoView();
+}
+function Scroll2(){
+    const el = document.getElementById('Hit');
+          el.scrollIntoView();
+}
+
+</script>
+<div><a id='top'/></div> 
 </head>
 <body>
-    
+
 <div class="Канцтоварищ">
 <p>Канцтоварищ</p>
 </div>
@@ -18,8 +30,8 @@ charset=utf8">
 
     
 <div class="Knopki">
-<button class="Akc">Акции</button>
-<button class="Hit">Хиты продаж</button>
+<button class="Akc" onclick="Scroll1()">Акции</button>
+<button class="Hit" onclick="Scroll2()">Хиты продаж</button>
 <div style="float:right">
 <select class = "city" width = "10%" align = "right">
 <option>Рязань</option>
@@ -30,7 +42,6 @@ charset=utf8">
 </div>  
     
 <div class="Block3">
-    <p class="Kat">Каталог товаров</p>
     <div class="Block4">
 <input type = "text" class = "search" size = "50">
 <button class="Nait">Найти</button> </div>
@@ -99,74 +110,391 @@ charset=utf8">
     <h3>Новинки</h3>
     <div class = "goods-container">
 
-        <div class = "good" ><button class = "add-in-purchase-list">В корзину</button></div>
-        <div class = "good"><button class = "add-in-purchase-list">В корзину</button></div>
-        <div class = "good"><button class = "add-in-purchase-list">В корзину</button></div>
-        <div class = "good" ><button class = "add-in-purchase-list">В корзину</button></div>
-        <div class = "good" ><button class = "add-in-purchase-list">В корзину</button></div>
-        <div class = "good" ><button class = "add-in-purchase-list">В корзину</button></div>
-        <div class = "good" ><button class = "add-in-purchase-list">В корзину</button></div>
-        <div class = "good" ><button class = "add-in-purchase-list">В корзину</button></div>
-        <div class = "good" ><button class = "add-in-purchase-list">В корзину</button></div>
-        <div class = "good" ><button class = "add-in-purchase-list">В корзину</button></div>
-        <div class = "good" ><button class = "add-in-purchase-list">В корзину</button></div>
-        <div class = "good" ><button class = "add-in-purchase-list">В корзину</button></div>
-        <div class = "good" ><button class = "add-in-purchase-list">В корзину</button></div>
-        <div class = "good" ><button class = "add-in-purchase-list">В корзину</button></div>
-        <div class = "good" ><button class = "add-in-purchase-list">В корзину</button></div>
+        <div class = "good" >
+            <img src="7.jpg">
+            <p>Ручка синяя</p>
+            <button id="plus" >+</button>
+            <input type="text" id="col" size="1px" value="1">
+            <button id="minus">-</button><p id="dengi">20 руб</p>
+            <button class = "add-in-purchase-list">В корзину</button>
+        </div>
+        <div class = "good">
+            <img src="8.jpg">
+            <p>Ручка черная гелевая</p>
+            <button id="plus">+</button>
+            <input type="text" id="col" size="1px" placeholder="1">
+            <button id="minus">-</button><p id="dengi">21 руб</p>
+            <button class = "add-in-purchase-list">В корзину</button>
+        </div>
+        <div class = "good">
+            <img src="9.jpg">
+            <p>Набор гелевых ручек</p>
+            <button id="plus">+</button>
+            <input type="text" id="col" size="1px" placeholder="1">
+            <button id="minus">-</button><p id="dengi">120 руб</p>
+            <button class = "add-in-purchase-list">В корзину</button>
+        </div>
+        <div class = "good" >
+            <img src="10.jpg">
+            <p>Ручка гелевая</p>
+            <button id="plus">+</button>
+            <input type="text" id="col" size="1px" placeholder="1">
+            <button id="minus">-</button><p id="dengi">30 руб</p>
+            <button class = "add-in-purchase-list">В корзину</button>
+        </div>
+        <div class = "good" >
+            <img src="11.jpg">
+            <p>Набор гелевых ручек</p>
+            <button id="plus">+</button>
+            <input type="text" id="col" size="1px" placeholder="1">
+            <button id="minus">-</button><p id="dengi">120 руб</p>
+            <button class = "add-in-purchase-list">В корзину</button>
+        </div>
+        <div class = "good" >
+            <img src="12.jpg">
+            <p>Ручка черная гелевая</p>
+            <button id="plus">+</button>
+            <input type="text" id="col" size="1px" placeholder="1">
+            <button id="minus">-</button><p id="dengi">30 руб</p>
+            <button class = "add-in-purchase-list">В корзину</button>
+        </div>
+        <div class = "good" >
+            <img src="13.jpg">
+            <p>Папка-регистратор</p>
+            <button id="plus">+</button>
+            <input type="text" id="col" size="1px" placeholder="1">
+            <button id="minus">-</button><p id="dengi">250 руб</p>
+            <button class = "add-in-purchase-list">В корзину</button>
+        </div>
+        <div class = "good" >
+            <img src="14.jpg">
+            <p>Папка-регистратор</p>
+            <button id="plus">+</button>
+            <input type="text" id="col" size="1px" placeholder="1">
+            <button id="minus">-</button><p id="dengi">250 руб</p>
+            <button class = "add-in-purchase-list">В корзину</button>
+        </div>
+        <div class = "good" >
+            <img src="15.jpg">
+            <p>Степлер</p>
+            <button id="plus">+</button>
+            <input type="text" id="col" size="1px" placeholder="1">
+            <button id="minus">-</button><p id="dengi">100 руб</p>
+            <button class = "add-in-purchase-list">В корзину</button>
+        </div>
+        <div class = "good" >
+            <img src="16.jpg">
+            <p>Степлер</p>
+            <button id="plus">+</button>
+            <input type="text" id="col" size="1px" placeholder="1">
+            <button id="minus">-</button><p id="dengi">100 руб</p>
+            <button class = "add-in-purchase-list">В корзину</button>
+        </div>
+        <div class = "good" >
+            <img src="17.jpg">
+            <p>Клей-карандаш</p>
+            <button id="plus">+</button>
+            <input type="text" id="col" size="1px" placeholder="1">
+            <button id="minus">-</button><p id="dengi">50 руб</p>
+            <button class = "add-in-purchase-list">В корзину</button>
+        </div>
+        <div class = "good" >
+            <img src="18.jpg">
+            <p>Набор клеев</p>
+            <button id="plus">+</button>
+            <input type="text" id="col" size="1px" placeholder="1">
+            <button id="minus">-</button><p id="dengi">150 руб</p>
+            <button class = "add-in-purchase-list">В корзину</button>
+        </div>
+        <div class = "good" >
+            <img src="19.jpg">
+            <p>Дырокол</p>
+            <button id="plus">+</button>
+            <input type="text" id="col" size="1px" placeholder="1">
+            <button id="minus">-</button><p id="dengi">180 руб</p>
+            <button class = "add-in-purchase-list">В корзину</button>
+        </div>
+        <div class = "good" >
+            <img src="20.jpg">
+            <p>Дырокол</p>
+            <button id="plus">+</button>
+            <input type="text" id="col" size="1px" placeholder="1">
+            <button id="minus">-</button><p id="dengi">190 руб</p>
+            <button class = "add-in-purchase-list">В корзину</button>
+        </div>
+        <div class = "good" >
+            <img src="21.jpg">
+            <p>Дырокол</p>
+            <button id="plus">+</button>
+            <input type="text" id="col" size="1px" placeholder="1">
+            <button id="minus">-</button><p id="dengi">200 руб</p>
+            <button class = "add-in-purchase-list">В корзину</button>
+        </div>
     </div>
 
-    <h3>Распродажа</h3>
+    <h3 id="Raspr">Акции</h3>
     <div class = "goods-container">
-        <div class = "good" ><button class = "add-in-purchase-list">В корзину</button></div>
-        <div class = "good"><button class = "add-in-purchase-list">В корзину</button></div>
-        <div class = "good"><button class = "add-in-purchase-list">В корзину</button></div>
-        <div class = "good" ><button class = "add-in-purchase-list">В корзину</button></div>
-        <div class = "good" ><button class = "add-in-purchase-list">В корзину</button></div>
-        <div class = "good" ><button class = "add-in-purchase-list">В корзину</button></div>
-        <div class = "good" ><button class = "add-in-purchase-list">В корзину</button></div>
-        <div class = "good" ><button class = "add-in-purchase-list">В корзину</button></div>
-        <div class = "good" ><button class = "add-in-purchase-list">В корзину</button></div>
-        <div class = "good" ><button class = "add-in-purchase-list">В корзину</button></div>
-        <div class = "good" ><button class = "add-in-purchase-list">В корзину</button></div>
-        <div class = "good" ><button class = "add-in-purchase-list">В корзину</button></div>
-        <div class = "good" ><button class = "add-in-purchase-list">В корзину</button></div>
-        <div class = "good" ><button class = "add-in-purchase-list">В корзину</button></div>
-        <div class = "good" ><button class = "add-in-purchase-list">В корзину</button></div>
+        <div class = "good" >
+            <img src="22.jpg">
+            <p>Набор тексто-выделителей</p>
+            <button id="plus">+</button>
+            <input type="text" id="col" size="1px" placeholder="1">
+            <button id="minus">-</button><p id="dengi">200 руб</p>
+            <button class = "add-in-purchase-list">В корзину</button>
+        </div>
+        <div class = "good">
+            <img src="23.jpg">
+            <p>Набор тексто-выделителей</p>
+            <button id="plus">+</button>
+            <input type="text" id="col" size="1px" placeholder="1">
+            <button id="minus">-</button><p id="dengi">220 руб</p>
+            <button class = "add-in-purchase-list">В корзину</button>
+        </div>
+        <div class = "good">
+            <img src="24.jpg">
+            <p>Набор тексто-выделителей</p>
+            <button id="plus">+</button>
+            <input type="text" id="col" size="1px" placeholder="1">
+            <button id="minus">-</button><p id="dengi">150 руб</p>
+            <button class = "add-in-purchase-list">В корзину</button>
+        </div>
+        <div class = "good" >
+            <img src="25.jpg">
+            <p>Механический карандаш</p>
+            <button id="plus">+</button>
+            <input type="text" id="col" size="1px" placeholder="1">
+            <button id="minus">-</button><p id="dengi">40 руб</p>
+            <button class = "add-in-purchase-list">В корзину</button>
+        </div>
+        <div class = "good" >
+            <img src="26.jpg">
+            <p>Механический карандаш</p>
+            <button id="plus">+</button>
+            <input type="text" id="col" size="1px" placeholder="1">
+            <button id="minus">-</button><p id="dengi">50 руб</p>
+            <button class = "add-in-purchase-list">В корзину</button>
+        </div>
+        <div class = "good" >
+            <img src="27.jpg">
+            <p>Механический карандаш</p>
+            <button id="plus">+</button>
+            <input type="text" id="col" size="1px" placeholder="1">
+            <button id="minus">-</button><p id="dengi">30 руб</p>
+            <button class = "add-in-purchase-list">В корзину</button>
+        </div>
+        <div class = "good" >
+            <img src="28.jpg">
+            <p>Зажим для бумаги</p>
+            <button id="plus">+</button>
+            <input type="text" id="col" size="1px" placeholder="1">
+            <button id="minus">-</button><p id="dengi">100 руб</p>
+            <button class = "add-in-purchase-list">В корзину</button>
+        </div>
+        <div class = "good" >
+            <img src="29.jpg">
+            <p>Зажим для бумаги</p>
+            <button id="plus">+</button>
+            <input type="text" id="col" size="1px" placeholder="1">
+            <button id="minus">-</button><p id="dengi">120 руб</p>
+            <button class = "add-in-purchase-list">В корзину</button>
+        </div>
+        <div class = "good" >
+            <img src="30.jpg">
+            <p>Зажим для бумаги</p>
+            <button id="plus">+</button>
+            <input type="text" id="col" size="1px" placeholder="1">
+            <button id="minus">-</button><p id="dengi">200 руб</p>
+            <button class = "add-in-purchase-list">В корзину</button>
+        </div>
+        <div class = "good" >
+            <img src="31.jpg">
+            <p>Точилка</p>
+            <button id="plus">+</button>
+            <input type="text" id="col" size="1px" placeholder="1">
+            <button id="minus">-</button><p id="dengi">80 руб</p>
+            <button class = "add-in-purchase-list">В корзину</button>
+        </div>
+        <div class = "good" >
+            <img src="32.jpg">
+            <p>Точилка</p>
+            <button id="plus">+</button>
+            <input type="text" id="col" size="1px" placeholder="1">
+            <button id="minus">-</button><p id="dengi">60 руб</p>
+            <button class = "add-in-purchase-list">В корзину</button>
+        </div>
+        <div class = "good" >
+            <img src="33.jpg">
+            <p>Точилка</p>
+            <button id="plus">+</button>
+            <input type="text" id="col" size="1px" placeholder="1">
+            <button id="minus">-</button><p id="dengi">50 руб</p>
+            <button class = "add-in-purchase-list">В корзину</button>
+        </div>
+        <div class = "good" >
+            <img src="34.jpg">
+            <p>Папка-вкладыш</p>
+            <button id="plus">+</button>
+            <input type="text" id="col" size="1px" placeholder="1">
+            <button id="minus">-</button><p id="dengi">4 руб</p>
+            <button class = "add-in-purchase-list">В корзину</button>
+        </div>
+        <div class = "good" >
+            <img src="35.jpg">
+            <p>Папка-вкладыш</p>
+            <button id="plus">+</button>
+            <input type="text" id="col" size="1px" placeholder="1">
+            <button id="minus">-</button><p id="dengi">10 руб</p>
+            <button class = "add-in-purchase-list">В корзину</button>
+        </div>
+        <div class = "good" >
+            <img src="36.jpg">
+            <p>Папка-вкладыш</p>
+            <button id="plus">+</button>
+            <input type="text" id="col" size="1px" placeholder="1">
+            <button id="minus">-</button><p id="dengi">4 руб</p>
+            <button class = "add-in-purchase-list">В корзину</button>
+        </div>
     </div>
 
-    <h3>Хиты продаж</h3>
+    <h3 id="Hit">Хиты продаж</h3>
     <div class = "goods-container">
 
-        <div class = "good" ><button class = "add-in-purchase-list">В корзину</button></div>
-        <div class = "good"><button class = "add-in-purchase-list">В корзину</button></div>
-        <div class = "good"><button class = "add-in-purchase-list">В корзину</button></div>
-        <div class = "good" ><button class = "add-in-purchase-list">В корзину</button></div>
-        <div class = "good" ><button class = "add-in-purchase-list">В корзину</button></div>
-        <div class = "good" ><button class = "add-in-purchase-list">В корзину</button></div>
-        <div class = "good" ><button class = "add-in-purchase-list">В корзину</button></div>
-        <div class = "good" ><button class = "add-in-purchase-list">В корзину</button></div>
-        <div class = "good" ><button class = "add-in-purchase-list">В корзину</button></div>
-        <div class = "good" ><button class = "add-in-purchase-list">В корзину</button></div>
-        <div class = "good" ><button class = "add-in-purchase-list">В корзину</button></div>
-        <div class = "good" ><button class = "add-in-purchase-list">В корзину</button></div>
-        <div class = "good" ><button class = "add-in-purchase-list">В корзину</button></div>
-        <div class = "good" ><button class = "add-in-purchase-list">В корзину</button></div>
-        <div class = "good" ><button class = "add-in-purchase-list">В корзину</button></div>
+        <div class = "good" >
+            <img src="37.jpg">
+            <p>Папка-вкладыш</p>
+            <button id="plus">+</button>
+            <input type="text" id="col" size="1px" placeholder="1">
+            <button id="minus">-</button><p id="dengi">4 руб</p>
+            <button class = "add-in-purchase-list">В корзину</button>
+        </div>
+        <div class = "good">
+            <img src="38.jpg">
+            <p>Папка-вкладыш</p>
+            <button id="plus">+</button>
+            <input type="text" id="col" size="1px" placeholder="1">
+            <button id="minus">-</button><p id="dengi">4 руб</p>
+            <button class = "add-in-purchase-list">В корзину</button>
+        </div>
+        <div class = "good">
+            <img src="39.jpg">
+            <p>Папка-вкладыш</p>
+            <button id="plus">+</button>
+            <input type="text" id="col" size="1px" placeholder="1">
+            <button id="minus">-</button><p id="dengi">4 руб</p>
+            <button class = "add-in-purchase-list">В корзину</button>
+        </div>
+        <div class = "good" >
+            <img src="40.jpg">
+            <p>Ручка</p>
+            <button id="plus">+</button>
+            <input type="text" id="col" size="1px" placeholder="1">
+            <button id="minus">-</button><p id="dengi">84 руб</p>
+            <button class = "add-in-purchase-list">В корзину</button>
+        </div>
+        <div class = "good" >
+            <img src="41.jpg">
+            <p>Ручка</p>
+            <button id="plus">+</button>
+            <input type="text" id="col" size="1px" placeholder="1">
+            <button id="minus">-</button><p id="dengi">76 руб</p>
+            <button class = "add-in-purchase-list">В корзину</button>
+        </div>
+        <div class = "good" >
+            <img src="42.jpg">
+            <p>Ручка</p>
+            <button id="plus">+</button>
+            <input type="text" id="col" size="1px" placeholder="1">
+            <button id="minus">-</button><p id="dengi">89 руб</p>
+            <button class = "add-in-purchase-list">В корзину</button>
+        </div>
+        <div class = "good" >
+            <img src="43.jpg">
+            <p>Папка на 2 кольцах</p>
+            <button id="plus">+</button>
+            <input type="text" id="col" size="1px" placeholder="1">
+            <button id="minus">-</button><p id="dengi">105 руб</p>
+            <button class = "add-in-purchase-list">В корзину</button>
+        </div>
+        <div class = "good" >
+            <img src="44.jpg">
+            <p>Папка на 2 кольцах</p>
+            <button id="plus">+</button>
+            <input type="text" id="col" size="1px" placeholder="1">
+            <button id="minus">-</button><p id="dengi">120 руб</p>
+            <button class = "add-in-purchase-list">В корзину</button>
+        </div>
+        <div class = "good" >
+            <img src="45.jpg">
+            <p>Папка на 2 кольцах</p>
+            <button id="plus">+</button>
+            <input type="text" id="col" size="1px" placeholder="1">
+            <button id="minus">-</button><p id="dengi">90 руб</p>
+            <button class = "add-in-purchase-list">В корзину</button>
+        </div>
+        <div class = "good" >
+            <img src="46.jpg">
+            <p>Набор маркеров</p>
+            <button id="plus">+</button>
+            <input type="text" id="col" size="1px" placeholder="1">
+            <button id="minus">-</button><p id="dengi">174 руб</p>
+            <button class = "add-in-purchase-list">В корзину</button>
+        </div>
+        <div class = "good" >
+            <img src="47.jpg">
+            <p>Маркер</p>
+            <button id="plus">+</button>
+            <input type="text" id="col" size="1px" placeholder="1">
+            <button id="minus">-</button><p id="dengi">86 руб</p>
+            <button class = "add-in-purchase-list">В корзину</button>
+        </div>
+        <div class = "good" >
+            <img src="48.jpg">
+            <p>Набор маркеров</p>
+            <button id="plus">+</button>
+            <input type="text" id="col" size="1px" placeholder="1">
+            <button id="minus">-</button><p id="dengi">124 руб</p>
+            <button class = "add-in-purchase-list">В корзину</button>
+        </div>
+        <div class = "good" >
+            <img src="49.jpg">
+            <p>Блоки для записи</p>
+            <button id="plus">+</button>
+            <input type="text" id="col" size="1px" placeholder="1">
+            <button id="minus">-</button><p id="dengi">74 руб</p>
+            <button class = "add-in-purchase-list">В корзину</button>
+        </div>
+        <div class = "good" >
+            <img src="50.jpg">
+            <p>Блоки для записи</p>
+            <button id="plus">+</button>
+            <input type="text" id="col" size="1px" placeholder="1">
+            <button id="minus">-</button><p id="dengi">106 руб</p>
+            <button class = "add-in-purchase-list">В корзину</button>
+        </div>
+        <div class = "good" >
+            <img src="51.jpg">
+            <p>Блоки для записи</p>
+            <button id="plus">+</button>
+            <input type="text" id="col" size="1px" placeholder="1">
+            <button id="minus">-</button><p id="dengi">89 руб</p>
+            <button class = "add-in-purchase-list">В корзину</button>
+        </div>
     </div>
 </div>
     
 <div class = "footer">
-        <p class = "footer-text"></p>
-        <h3 class = "footer-text">Магазин канцелярских товаров</h3>
-        <p class = "footer-text"></p>
-        <a href = "#" class = "footer-text">margo.com.2001@gmail.com</a>
-        <p class = "footer-text">8-920-992-24-65</p>
-        <p class = "footer-text"></p>
-        <a href = "#" class = "footer-text">ilyakorotkih62@gmail.com</a>
-        <p class = "footer-text">8-910-628-46-60</p>
+      <p></p>  
+        <a href = "#" class = "footer-text" id="pochta1">margo.com.2001@gmail.com</a>
+        <a href = "#" class = "footer-text" id="pochta2">ilyakorotkih62@gmail.com</a>
+          <p class = "footer-text" id="nazv">Магазин канцелярских товаров</p>
+    <p></p>
+    <p></p>
+    <p></p>
+        <p class = "footer-text" id="number1">8-920-992-24-65</p>
+        <p class = "footer-text" id="number2">8-910-628-46-60</p>
 </div>
 </div>
+    <div><a href="#top" class="idTop"><img src="52.png" id="Strelka"></a></div>
 </body>
 
 </html>

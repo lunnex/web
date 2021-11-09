@@ -197,12 +197,12 @@ ul{
     background-color: crimson;
 }
 
-.upper-menu-button-1:hover .dropped-1{
+/*.upper-menu-button-1:hover .dropped-1{
     display: block;
     position: absolute;
     z-index: 1;
     background-color: white;
-}
+}*/
 
 .upper-menu-button-2{
     float:left;
@@ -210,12 +210,12 @@ ul{
     margin-right: 5%;
 }
 
-.upper-menu-button-2:hover .dropped-2{
+/*.upper-menu-button-2:hover .dropped-2{
     display: block;
     position: absolute;
     z-index: 1;
     background-color: white;
-}
+}*/
 
 .upper-menu-button-3{
     float:left;

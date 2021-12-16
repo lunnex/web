@@ -40,6 +40,30 @@
   font-size: 16px;
   font-family: "Century Gothic"; 
 }
+.dob{
+  border-width: 2px;
+  border-color: rgb(254, 201, 201);
+  border-style: solid;
+  border-radius: 29px;
+  background-color: rgb(254, 201, 201);
+  width: 100px;
+  height: 30px;
+  font-size: 16px;
+  font-family: "Century Gothic"; 
+}
+.change{
+  border-width: 2px;
+  border-color: rgb(254, 201, 201);
+  border-style: solid;
+  border-radius: 29px;
+  background-color: rgb(254, 201, 201);
+  width: 80px;
+  height: 30px;
+  font-size: 14px;
+  font-family: "Century Gothic"; 
+  margin-top:5px;
+  margin-left:80px;    
+}
 .Hit{
   border-width: 2px;
   border-color: rgb(254, 201, 201);
@@ -278,7 +302,7 @@ img:nth-child(4){animation-delay:0}
 }
 
 .good{
-    height:250px; 
+    height:300px; 
     width:245px; 
     float:left;
     border: 1px solid black;

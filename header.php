@@ -2,11 +2,11 @@
 
 
 <div class="Канцтоварищ">
-<p>Канцтоварищ</p>
+<a onclick="window.location.href = 'index.php';">Канцтоварищ</a>
 </div>
 <div class="Магазин_канцелярских_товаров">
 <p >Магазин канцелярских товаров</p>
-<p class="ВходРегистрация"> <img src="Картинки\1.png" style=" width: 20px; height: 20px; margin-right: 10px;">Вход/Регистрация</p>
+<p class="ВходРегистрация"> <img src="Картинки\1.png" style=" width: 20px; height: 20px; margin-right: 10px;"><a onclick="window.location.href = 'index3.php';">Вход</a> <a onclick="window.location.href = 'index4.php';">Регистрация</a></p>
 </div>
 
     
@@ -18,7 +18,7 @@
 <option>Рязань</option>
 <option>Москва</option>
 </select>
-<button class="Korz">Корзина</button>
+<button class="Korz" onclick="window.location.href = 'index5.php';">Корзина</button>
 </div>
 </div>  
     
@@ -30,7 +30,9 @@
     
     <div class = "upper-menu">
         
-            <div class = "upper-menu-button-1" onmouseover='show(this)' onmouseout='hide(this)'>
+        
+            
+        <div class = "upper-menu-button-1" onmouseover='show(this)' onmouseout='hide(this)'>
                 <a href="#" class = "upper-menu-button-1-text">Каталог товаров</a>
                 <div class = "dropped-1">
                     <a href="#" class = "dropped-href">Письменные товары, черчение</a>

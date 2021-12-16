@@ -13,7 +13,7 @@
 	?>
 	<?
 	require_once "menu-aside.php";
-	require_once "catalog.php";
+	require_once "regist.php";
 	?>
 	<?
 	require_once "footer.php";

@@ -9,6 +9,7 @@
             <input type="text" id="col" size="1px" value="1">
             <button id="minus">-</button><p id="dengi">20 руб</p>
             <button class = "add-in-purchase-list">В корзину</button>
+            <button class = "change" onclick="window.location.href = 'index2.php';">Изменить</button>
         </div>
         <div class = "good">
             <img src="8.jpg">
@@ -17,6 +18,7 @@
             <input type="text" id="col" size="1px" placeholder="1">
             <button id="minus">-</button><p id="dengi">21 руб</p>
             <button class = "add-in-purchase-list">В корзину</button>
+            <button class = "change" onclick="window.location.href = 'index2.php';">Изменить</button>
         </div>
         <div class = "good">
             <img src="9.jpg">
@@ -25,6 +27,7 @@
             <input type="text" id="col" size="1px" placeholder="1">
             <button id="minus">-</button><p id="dengi">120 руб</p>
             <button class = "add-in-purchase-list">В корзину</button>
+            <button class = "change" onclick="window.location.href = 'index2.php';">Изменить</button>
         </div>
         <div class = "good" >
             <img src="10.jpg">
@@ -33,6 +36,7 @@
             <input type="text" id="col" size="1px" placeholder="1">
             <button id="minus">-</button><p id="dengi">30 руб</p>
             <button class = "add-in-purchase-list">В корзину</button>
+            <button class = "change" onclick="window.location.href = 'index2.php';">Изменить</button>
         </div>
         <div class = "good" >
             <img src="11.jpg">
@@ -41,6 +45,7 @@
             <input type="text" id="col" size="1px" placeholder="1">
             <button id="minus">-</button><p id="dengi">120 руб</p>
             <button class = "add-in-purchase-list">В корзину</button>
+            <button class = "change" onclick="window.location.href = 'index2.php';">Изменить</button>
         </div>
         <div class = "good" >
             <img src="12.jpg">
@@ -49,6 +54,7 @@
             <input type="text" id="col" size="1px" placeholder="1">
             <button id="minus">-</button><p id="dengi">30 руб</p>
             <button class = "add-in-purchase-list">В корзину</button>
+            <button class = "change" onclick="window.location.href = 'index2.php';">Изменить</button>
         </div>
         <div class = "good" >
             <img src="13.jpg">
@@ -57,6 +63,7 @@
             <input type="text" id="col" size="1px" placeholder="1">
             <button id="minus">-</button><p id="dengi">250 руб</p>
             <button class = "add-in-purchase-list">В корзину</button>
+            <button class = "change" onclick="window.location.href = 'index2.php';">Изменить</button>
         </div>
         <div class = "good" >
             <img src="14.jpg">
@@ -65,6 +72,7 @@
             <input type="text" id="col" size="1px" placeholder="1">
             <button id="minus">-</button><p id="dengi">250 руб</p>
             <button class = "add-in-purchase-list">В корзину</button>
+            <button class = "change" onclick="window.location.href = 'index2.php';">Изменить</button>
         </div>
         <div class = "good" >
             <img src="15.jpg">
@@ -73,6 +81,7 @@
             <input type="text" id="col" size="1px" placeholder="1">
             <button id="minus">-</button><p id="dengi">100 руб</p>
             <button class = "add-in-purchase-list">В корзину</button>
+            <button class = "change" onclick="window.location.href = 'index2.php';">Изменить</button>
         </div>
         <div class = "good" >
             <img src="16.jpg">
@@ -81,6 +90,7 @@
             <input type="text" id="col" size="1px" placeholder="1">
             <button id="minus">-</button><p id="dengi">100 руб</p>
             <button class = "add-in-purchase-list">В корзину</button>
+            <button class = "change" onclick="window.location.href = 'index2.php';">Изменить</button>
         </div>
         <div class = "good" >
             <img src="17.jpg">
@@ -89,6 +99,7 @@
             <input type="text" id="col" size="1px" placeholder="1">
             <button id="minus">-</button><p id="dengi">50 руб</p>
             <button class = "add-in-purchase-list">В корзину</button>
+            <button class = "change" onclick="window.location.href = 'index2.php';">Изменить</button>
         </div>
         <div class = "good" >
             <img src="18.jpg">
@@ -97,6 +108,7 @@
             <input type="text" id="col" size="1px" placeholder="1">
             <button id="minus">-</button><p id="dengi">150 руб</p>
             <button class = "add-in-purchase-list">В корзину</button>
+            <button class = "change" onclick="window.location.href = 'index2.php';">Изменить</button>
         </div>
         <div class = "good" >
             <img src="19.jpg">
@@ -105,6 +117,7 @@
             <input type="text" id="col" size="1px" placeholder="1">
             <button id="minus">-</button><p id="dengi">180 руб</p>
             <button class = "add-in-purchase-list">В корзину</button>
+            <button class = "change" onclick="window.location.href = 'index2.php';">Изменить</button>
         </div>
         <div class = "good" >
             <img src="20.jpg">
@@ -113,6 +126,7 @@
             <input type="text" id="col" size="1px" placeholder="1">
             <button id="minus">-</button><p id="dengi">190 руб</p>
             <button class = "add-in-purchase-list">В корзину</button>
+            <button class = "change" onclick="window.location.href = 'index2.php';">Изменить</button>
         </div>
         <div class = "good" >
             <img src="21.jpg">
@@ -121,7 +135,9 @@
             <input type="text" id="col" size="1px" placeholder="1">
             <button id="minus">-</button><p id="dengi">200 руб</p>
             <button class = "add-in-purchase-list">В корзину</button>
+            <button class = "change" onclick="window.location.href = 'index2.php';">Изменить</button>
         </div>
+        <p><input type="button" class="dob" value="Добавить" onclick="window.location.href = 'index2.php';"></p>
     </div>
 
     <h3 id="Raspr">Акции</h3>
@@ -133,6 +149,7 @@
             <input type="text" id="col" size="1px" placeholder="1">
             <button id="minus">-</button><p id="dengi">200 руб</p>
             <button class = "add-in-purchase-list">В корзину</button>
+            <button class = "change" onclick="window.location.href = 'index2.php';">Изменить</button>
         </div>
         <div class = "good">
             <img src="23.jpg">
@@ -141,6 +158,7 @@
             <input type="text" id="col" size="1px" placeholder="1">
             <button id="minus">-</button><p id="dengi">220 руб</p>
             <button class = "add-in-purchase-list">В корзину</button>
+            <button class = "change" onclick="window.location.href = 'index2.php';">Изменить</button>
         </div>
         <div class = "good">
             <img src="24.jpg">
@@ -149,6 +167,7 @@
             <input type="text" id="col" size="1px" placeholder="1">
             <button id="minus">-</button><p id="dengi">150 руб</p>
             <button class = "add-in-purchase-list">В корзину</button>
+            <button class = "change" onclick="window.location.href = 'index2.php';">Изменить</button>
         </div>
         <div class = "good" >
             <img src="25.jpg">
@@ -157,6 +176,7 @@
             <input type="text" id="col" size="1px" placeholder="1">
             <button id="minus">-</button><p id="dengi">40 руб</p>
             <button class = "add-in-purchase-list">В корзину</button>
+            <button class = "change" onclick="window.location.href = 'index2.php';">Изменить</button>
         </div>
         <div class = "good" >
             <img src="26.jpg">
@@ -165,6 +185,7 @@
             <input type="text" id="col" size="1px" placeholder="1">
             <button id="minus">-</button><p id="dengi">50 руб</p>
             <button class = "add-in-purchase-list">В корзину</button>
+            <button class = "change" onclick="window.location.href = 'index2.php';">Изменить</button>
         </div>
         <div class = "good" >
             <img src="27.jpg">
@@ -173,6 +194,7 @@
             <input type="text" id="col" size="1px" placeholder="1">
             <button id="minus">-</button><p id="dengi">30 руб</p>
             <button class = "add-in-purchase-list">В корзину</button>
+            <button class = "change" onclick="window.location.href = 'index2.php';">Изменить</button>
         </div>
         <div class = "good" >
             <img src="28.jpg">
@@ -181,6 +203,7 @@
             <input type="text" id="col" size="1px" placeholder="1">
             <button id="minus">-</button><p id="dengi">100 руб</p>
             <button class = "add-in-purchase-list">В корзину</button>
+            <button class = "change" onclick="window.location.href = 'index2.php';">Изменить</button>
         </div>
         <div class = "good" >
             <img src="29.jpg">
@@ -189,6 +212,7 @@
             <input type="text" id="col" size="1px" placeholder="1">
             <button id="minus">-</button><p id="dengi">120 руб</p>
             <button class = "add-in-purchase-list">В корзину</button>
+            <button class = "change" onclick="window.location.href = 'index2.php';">Изменить</button>
         </div>
         <div class = "good" >
             <img src="30.jpg">
@@ -197,6 +221,7 @@
             <input type="text" id="col" size="1px" placeholder="1">
             <button id="minus">-</button><p id="dengi">200 руб</p>
             <button class = "add-in-purchase-list">В корзину</button>
+            <button class = "change" onclick="window.location.href = 'index2.php';">Изменить</button>
         </div>
         <div class = "good" >
             <img src="31.jpg">
@@ -205,6 +230,7 @@
             <input type="text" id="col" size="1px" placeholder="1">
             <button id="minus">-</button><p id="dengi">80 руб</p>
             <button class = "add-in-purchase-list">В корзину</button>
+            <button class = "change" onclick="window.location.href = 'index2.php';">Изменить</button>
         </div>
         <div class = "good" >
             <img src="32.jpg">
@@ -213,6 +239,7 @@
             <input type="text" id="col" size="1px" placeholder="1">
             <button id="minus">-</button><p id="dengi">60 руб</p>
             <button class = "add-in-purchase-list">В корзину</button>
+            <button class = "change" onclick="window.location.href = 'index2.php';">Изменить</button>
         </div>
         <div class = "good" >
             <img src="33.jpg">
@@ -221,6 +248,7 @@
             <input type="text" id="col" size="1px" placeholder="1">
             <button id="minus">-</button><p id="dengi">50 руб</p>
             <button class = "add-in-purchase-list">В корзину</button>
+            <button class = "change" onclick="window.location.href = 'index2.php';">Изменить</button>
         </div>
         <div class = "good" >
             <img src="34.jpg">
@@ -229,6 +257,7 @@
             <input type="text" id="col" size="1px" placeholder="1">
             <button id="minus">-</button><p id="dengi">4 руб</p>
             <button class = "add-in-purchase-list">В корзину</button>
+            <button class = "change" onclick="window.location.href = 'index2.php';">Изменить</button>
         </div>
         <div class = "good" >
             <img src="35.jpg">
@@ -237,6 +266,7 @@
             <input type="text" id="col" size="1px" placeholder="1">
             <button id="minus">-</button><p id="dengi">10 руб</p>
             <button class = "add-in-purchase-list">В корзину</button>
+            <button class = "change" onclick="window.location.href = 'index2.php';">Изменить</button>
         </div>
         <div class = "good" >
             <img src="36.jpg">
@@ -245,7 +275,9 @@
             <input type="text" id="col" size="1px" placeholder="1">
             <button id="minus">-</button><p id="dengi">4 руб</p>
             <button class = "add-in-purchase-list">В корзину</button>
+            <button class = "change" onclick="window.location.href = 'index2.php';">Изменить</button>
         </div>
+        <p><input type="button" class="dob" value="Добавить" onclick="window.location.href = 'index2.php';"></p>
     </div>
 
     <h3 id="Hit">Хиты продаж</h3>
@@ -258,6 +290,7 @@
             <input type="text" id="col" size="1px" placeholder="1">
             <button id="minus">-</button><p id="dengi">4 руб</p>
             <button class = "add-in-purchase-list">В корзину</button>
+            <button class = "change" onclick="window.location.href = 'index2.php';">Изменить</button>
         </div>
         <div class = "good">
             <img src="38.jpg">
@@ -266,6 +299,7 @@
             <input type="text" id="col" size="1px" placeholder="1">
             <button id="minus">-</button><p id="dengi">4 руб</p>
             <button class = "add-in-purchase-list">В корзину</button>
+            <button class = "change" onclick="window.location.href = 'index2.php';">Изменить</button>
         </div>
         <div class = "good">
             <img src="39.jpg">
@@ -274,6 +308,7 @@
             <input type="text" id="col" size="1px" placeholder="1">
             <button id="minus">-</button><p id="dengi">4 руб</p>
             <button class = "add-in-purchase-list">В корзину</button>
+            <button class = "change" onclick="window.location.href = 'index2.php';">Изменить</button>
         </div>
         <div class = "good" >
             <img src="40.jpg">
@@ -282,6 +317,7 @@
             <input type="text" id="col" size="1px" placeholder="1">
             <button id="minus">-</button><p id="dengi">84 руб</p>
             <button class = "add-in-purchase-list">В корзину</button>
+            <button class = "change" onclick="window.location.href = 'index2.php';">Изменить</button>
         </div>
         <div class = "good" >
             <img src="41.jpg">
@@ -290,6 +326,7 @@
             <input type="text" id="col" size="1px" placeholder="1">
             <button id="minus">-</button><p id="dengi">76 руб</p>
             <button class = "add-in-purchase-list">В корзину</button>
+            <button class = "change" onclick="window.location.href = 'index2.php';">Изменить</button>
         </div>
         <div class = "good" >
             <img src="42.jpg">
@@ -298,6 +335,7 @@
             <input type="text" id="col" size="1px" placeholder="1">
             <button id="minus">-</button><p id="dengi">89 руб</p>
             <button class = "add-in-purchase-list">В корзину</button>
+            <button class = "change" onclick="window.location.href = 'index2.php';">Изменить</button>
         </div>
         <div class = "good" >
             <img src="43.jpg">
@@ -306,6 +344,7 @@
             <input type="text" id="col" size="1px" placeholder="1">
             <button id="minus">-</button><p id="dengi">105 руб</p>
             <button class = "add-in-purchase-list">В корзину</button>
+            <button class = "change" onclick="window.location.href = 'index2.php';">Изменить</button>
         </div>
         <div class = "good" >
             <img src="44.jpg">
@@ -314,6 +353,7 @@
             <input type="text" id="col" size="1px" placeholder="1">
             <button id="minus">-</button><p id="dengi">120 руб</p>
             <button class = "add-in-purchase-list">В корзину</button>
+            <button class = "change" onclick="window.location.href = 'index2.php';">Изменить</button>
         </div>
         <div class = "good" >
             <img src="45.jpg">
@@ -322,6 +362,7 @@
             <input type="text" id="col" size="1px" placeholder="1">
             <button id="minus">-</button><p id="dengi">90 руб</p>
             <button class = "add-in-purchase-list">В корзину</button>
+            <button class = "change" onclick="window.location.href = 'index2.php';">Изменить</button>
         </div>
         <div class = "good" >
             <img src="46.jpg">
@@ -330,6 +371,7 @@
             <input type="text" id="col" size="1px" placeholder="1">
             <button id="minus">-</button><p id="dengi">174 руб</p>
             <button class = "add-in-purchase-list">В корзину</button>
+            <button class = "change" onclick="window.location.href = 'index2.php';">Изменить</button>
         </div>
         <div class = "good" >
             <img src="47.jpg">
@@ -338,6 +380,7 @@
             <input type="text" id="col" size="1px" placeholder="1">
             <button id="minus">-</button><p id="dengi">86 руб</p>
             <button class = "add-in-purchase-list">В корзину</button>
+            <button class = "change" onclick="window.location.href = 'index2.php';">Изменить</button>
         </div>
         <div class = "good" >
             <img src="48.jpg">
@@ -346,6 +389,7 @@
             <input type="text" id="col" size="1px" placeholder="1">
             <button id="minus">-</button><p id="dengi">124 руб</p>
             <button class = "add-in-purchase-list">В корзину</button>
+            <button class = "change" onclick="window.location.href = 'index2.php';">Изменить</button>
         </div>
         <div class = "good" >
             <img src="49.jpg">
@@ -354,6 +398,7 @@
             <input type="text" id="col" size="1px" placeholder="1">
             <button id="minus">-</button><p id="dengi">74 руб</p>
             <button class = "add-in-purchase-list">В корзину</button>
+            <button class = "change" onclick="window.location.href = 'index2.php';">Изменить</button>
         </div>
         <div class = "good" >
             <img src="50.jpg">
@@ -362,6 +407,7 @@
             <input type="text" id="col" size="1px" placeholder="1">
             <button id="minus">-</button><p id="dengi">106 руб</p>
             <button class = "add-in-purchase-list">В корзину</button>
+            <button class = "change" onclick="window.location.href = 'index2.php';">Изменить</button>
         </div>
         <div class = "good" >
             <img src="51.jpg">
@@ -370,6 +416,8 @@
             <input type="text" id="col" size="1px" placeholder="1">
             <button id="minus">-</button><p id="dengi">89 руб</p>
             <button class = "add-in-purchase-list">В корзину</button>
+            <button class = "change" onclick="window.location.href = 'index2.php';">Изменить</button>
         </div>
+        <p><input type="button" class="dob" value="Добавить" onclick="window.location.href = 'index2.php';"></p>
     </div>
 </div>

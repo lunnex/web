@@ -13,14 +13,8 @@
 	?>
 	<?php
 	require_once "menu-aside.php";
-	require_once "catalog.php";
-	
-				
-				
-					
-				
-        ?>
-	
+	require_once "tovarForAdding.php";
+	?>
 	<?php
 	require_once "footer.php";
 	?>

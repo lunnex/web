@@ -1,6 +1,6 @@
 
 <head>
-<link rel="stylesheet" href="Сайт.css" type="text/css"/>
+<link rel="stylesheet" href="style.css" type="text/css"/>
 <meta http-equiv="Content-Type" content="text/html;
 charset=utf8">
 <title>Коротких, Комарова, 11</title>

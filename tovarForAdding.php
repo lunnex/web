@@ -1,6 +1,6 @@
 <div class = "izm_tovar">
     <h3 style="padding-top:15px">Информация о товаре</h3>
-    <form action = 'changeGood.php' method = 'post'>
+    <form action = 'addGood.php' method = 'post'>
 		
     <p>Название товара <input type="text" name="name"
     <?php
@@ -34,12 +34,6 @@
     ?>
     </p>
     
-    <input type="hidden" name="id"
-    <?php
-    echo 'value = ';
-    echo $_POST['id'];
-    echo '>';
-    ?>
     
     
     

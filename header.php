@@ -1,11 +1,15 @@
 
-
+<?php 
+session_start();
+?>
 
 <div class="Канцтоварищ">
 <a onclick="window.location.href = 'index.php';">Канцтоварищ</a>
 </div>
 <div class="Магазин_канцелярских_товаров">
 <p >Магазин канцелярских товаров</p>
+<p class="ВходРегистрация"> <img src="Картинки\1.png" style=" width: 20px; height: 20px; margin-right: 10px;">
+<button class = "enter" onclick="window.location.href = 'vhod.php';">Вход</button> <button class = "registration" onclick="window.location.href = 'regist.php';">Регистрация</button></p>
 </div>
 
     
@@ -15,7 +19,7 @@
 <div style="float:right">
 </div>
 </div>  
-    
+    <button formaction = "getBasket.php" onclick="window.location.href = 'getBasket.php';" class="Korz">Корзина</button>
 <div class="Block3">
     <div class="Block4">
 

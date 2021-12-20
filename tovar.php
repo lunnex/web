@@ -45,6 +45,45 @@
     echo '>';
     ?>
     
+    <select name = "typeOfGood">
+    <option disabled>Тип товара</option>
+    <?php
+				$user = 'root';
+				$password = '12345678';
+				$db = 'stationery_shop';
+				$host = 'localhost';
+				$charset = 'utf8';
+				
+				try{
+				
+				$pdo = new PDO("mysql:host = $host; dbname=$db; charset=$charset", $user, $password);
+
+				}
+				
+			catch(Exception $e) {
+				echo ($e->getMessage());	
+				}
+				
+				$query = $pdo -> query('call getGroups()');
+				
+				
+				while($row = $query->fetch()){
+					if($_POST['group'] == $row['id']){
+						echo '<option selected value = "';
+					}
+					else{
+						echo '<option value = "';
+					}
+					
+					echo $row['id'];
+					echo '">';
+					echo $row['nameOfGroup'];
+					echo '</option>';
+				}
+				$pdo = null;
+				?>
+    </select>
+    
     
     
     <input class = "acceptBtn" type="submit" value="Готово">

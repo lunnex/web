@@ -12,13 +12,15 @@ ini_set('display_startup_errors',1);
 		try{
 			
 			$data = array(':name' => $_POST["name"],
+							':name' => $_POST["name"],
 							':price' => $_POST["price"],
+							':pic' => $_POST["pic"],
 							':quantity' => $_POST["quantity"],
-							':pic' => $_POST["pic"]);
+							':numOfGroup' => $_POST["typeOfGood"]);
 			
 				
 		$pdo = new PDO("mysql:host = $host; dbname=$db; charset=$charset", $user, $password);
-		$sql = "call addGood(:name, :price, :quantity, :pic)";
+		$sql = "call addGood(:name, :price, :quantity, :pic, :numOfGroup)";
 		$stmt = $pdo->prepare($sql);
 						
 	    $stmt->execute($data);

@@ -1,9 +1,10 @@
-
 <div class = "total-goods-container"
     <h3>Новинки</h3>
     <div class = "goods-container">
 			<?php
-			
+			ini_set('error_reporting', E_ALL);
+ini_set('display_errors',1);
+ini_set('display_startup_errors',1);
 			//echo $_SESSION["isAdmin"];
 				$user = 'root';
 				$password = '12345678';
@@ -21,7 +22,9 @@
 				echo ($e->getMessage());	
 				}
 				
-				$query = $pdo -> query('call getGood()');
+				$query = $pdo -> query('select goods.`id`, `name`, `price`, `pic`, `quantity`, `nameOfGroup`, groupOfGood.`id` as `numOfGroup`
+										from goods join groupOfGood on goods.group = groupOfGood.id 
+										where groupOfGood.`id` = 4');
 				
 				//echo $_SESSION['isAdmin'];
 				
@@ -81,7 +84,11 @@
 ?>
 		
         
-        
-        <p><input type="button" class="dob" value="Добавить" onclick="window.location.href = 'indexForAdding.php';"></p>
+        <?php
+        if ($_SESSION['isAdmin'] == 1 ){
+        echo '<p><input type="button" class="dob" value="Добавить" onclick="window.location.href = ';
+        echo "indexForAdding.php'";
+        echo ';"></p>';}
+        ?>
     </div>
 </div>

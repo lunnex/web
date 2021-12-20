@@ -8,15 +8,11 @@
     <div class = "main-content">
     
 <div class = "menu-side">
-<a href="#" class = "dropped-href" >Писменные товары, черчение</a>
-<a href="#" class = "dropped-href" >Папки, системы архивации</a>
-<a href="#" class = "dropped-href" >Офисные принадлежности</a>
-<a href="#" class = "dropped-href" >Бумага для офисной техники</a>
-<a href="#" class = "dropped-href" >Бумажная продукция для офиса</a>
-<a href="#" class = "dropped-href" >Хозтовары, упаковка</a>
-<a href="#" class = "dropped-href" >Товары для художников</a>
-<a href="#" class = "dropped-href" >Товары для учебы</a>
-<a href="#" class = "dropped-href" >Творчество, хобби</a>
-<a href="#" class = "dropped-href" >Деловые аксессуары</a>
-<a href="#" class = "dropped-href" >Подарки, сувениры</a>
+<a href="catalog1.php" class = "dropped-href" >Писменные товары, черчение</a>
+<a href="catalog2.php" class = "dropped-href" >Папки, системы архивации</a>
+<a href="index.php" class = "dropped-href" >Офисные принадлежности</a>
+<a href="catalog3.php" class = "dropped-href" >Творчество, хобби</a>
+<a href="catalog4.php" class = "dropped-href" >Офисные принадлежности</a>
+<a href="catalog5.php" class = "dropped-href" >Товары для учебы</a>
+<a href="catalog6.php" class = "dropped-href" >Бумага для офисной техники</a>
 </div>

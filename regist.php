@@ -1,6 +1,6 @@
 <div class = "regist">
     <h3 style="padding-top:15px">Регистрация</h3>
-    <form >
+    <form action = "makeNewUser.php" method = "post">
     <p>Придумайте логин <input type="text" name="log"></p>
     <p>Придумайте пароль <input type="password" name="password"></p>
     <p>Повторите пароль <input type="password" name="password"></p>

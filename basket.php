@@ -1,10 +1,7 @@
-
 <div class = "total-goods-container"
     <h3>Новинки</h3>
     <div class = "goods-container">
 			<?php
-			
-			//echo $_SESSION["isAdmin"];
 				$user = 'root';
 				$password = '12345678';
 				$db = 'stationery_shop';
@@ -21,9 +18,7 @@
 				echo ($e->getMessage());	
 				}
 				
-				$query = $pdo -> query('call getGood()');
-				
-				//echo $_SESSION['isAdmin'];
+				$query = $pdo -> query('call getBasket()');
 				
 				while($row = $query->fetch()){
 					
@@ -35,10 +30,6 @@
 					echo '<p>';
 					echo $row['name'];
 					echo '</p>';
-					echo 'Кол-во';
-					echo '<input type="text" id="col" size="1px" placeholder="1" value =';
-					echo $row['quantity'];
-					echo '>';
 					echo '<p id="dengi">';
 					echo $row['price'];
 					echo 'руб</p>';
@@ -54,23 +45,11 @@
 					echo '<input type = "hidden" name = "price" value = ';
 					echo $row['price'];
 					echo '>';
-					echo '<input type = "hidden" name = "quantity"  value = ';
-					echo $row['quantity'];
-					echo '>';
 					echo '<input type = "hidden" name = "pic"  value = ';
 					echo $row['pic'];
 					echo '>';
-					echo '<input type = "hidden" name = "group"  value = ';
-					echo $row['numOfGroup'];
-					echo '>';
-				
 					
-					if ($_SESSION['isAdmin'] == 1 ){
-						echo '<button formaction = "deleteGood.php" type = "submit" class = "add-in-purchase-list">Удалить</button>
-					<button type = "submit" class = "change" onclick="window.location.href = "index.php";">Изменить</button>';
-					}
-					
-					echo '<button formaction = "addGoodToBasket.php" type = "submit" class = "change" >В корзину</button>';
+					echo '<button formaction = "deleteGoodFromBasket.php" type = "submit" class = "add-in-purchase-list">Удалить</button>';
 					
 					echo '</form>';
 					echo '</div>';
@@ -81,7 +60,6 @@
 ?>
 		
         
-        
-        <p><input type="button" class="dob" value="Добавить" onclick="window.location.href = 'indexForAdding.php';"></p>
+
     </div>
 </div>

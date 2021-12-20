@@ -29,7 +29,7 @@
     <p class = "errorQuantity"></p>
     </p>
     
-    <p>Картинка товара <input type="text" class = "pic" name="pic"
+    <p>Картинка товара <input type="file" class = "pic" name="pic"
     <?php
     echo 'value = ';
     echo $_POST['pic'];
@@ -37,6 +37,39 @@
     ?>
     <p class = "errorPic"></p>
     </p>
+    
+    <select name = "typeOfGood">
+    <option disabled>Тип товара</option>
+    <?php
+				$user = 'root';
+				$password = '12345678';
+				$db = 'stationery_shop';
+				$host = 'localhost';
+				$charset = 'utf8';
+				
+				try{
+				
+				$pdo = new PDO("mysql:host = $host; dbname=$db; charset=$charset", $user, $password);
+
+				}
+				
+			catch(Exception $e) {
+				echo ($e->getMessage());	
+				}
+				
+				$query = $pdo -> query('call getGroups()');
+				
+				
+				while($row = $query->fetch()){
+					echo '<option value = "';
+					echo $row['id'];
+					echo '">';
+					echo $row['nameOfGroup'];
+					echo '</option>';
+				}
+				$pdo = null;
+				?>
+    </select>
     
     
     

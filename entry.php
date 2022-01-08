@@ -30,22 +30,23 @@ session_start();
 				$result = array();
 				$result = $stmt->fetch();
 				
-				if (count($result) == 0){
-					echo 'ddd';
+				$resultLength = $stmt->rowCount();
+				
+				if ($resultLength == 0){
+					$_SESSION["isMistaken"] = 1;
+					header("Location: vhod.php");
+					exit();
 				}
 				else{
 					
 					$_SESSION["isAdmin"] = $result['isAdmin'];
+					$_SESSION["isAuthorized"] = 1;
+					$_SESSION["isMistaken"] = 0;
+					$_SESSION["isAlreadyExists"] = 0;
 					header("Location: index.php");
 					exit();
 				}
-				
-				echo count($result);
-				echo $result['isAdmin'];
-				echo $_SESSION["isAdmin"];
-				
-				
-				
+							
 			
 				$pdo = null;
 ?>

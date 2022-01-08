@@ -1,5 +1,7 @@
+<button id = "sortByName">Отсортировать по имени</button>
+<button id = "sortByPrice">Отсортировать по цене</button>
 <div class = "total-goods-container"
-    <h3>Новинки</h3>
+    <h3></h3>
     <div class = "goods-container">
 			<?php
 			ini_set('error_reporting', E_ALL);
@@ -35,16 +37,18 @@ ini_set('display_startup_errors',1);
 					echo '<img src = "';
 					echo $row['pic'];
 					echo '">';
-					echo '<p>';
+					echo '<p class = "name">';
 					echo $row['name'];
 					echo '</p>';
-					echo 'Кол-во';
-					echo '<input type="text" id="col" size="1px" placeholder="1" value =';
+					
+					echo '<p>';
+					echo 'Кол-во: ';
 					echo $row['quantity'];
-					echo '>';
-					echo '<p id="dengi">';
+					echo ' шт.';
+					echo '</p>';
+					echo '<p class="dengi">';
 					echo $row['price'];
-					echo 'руб</p>';
+					echo ' руб</p>';
 					
 					
 					
@@ -83,12 +87,14 @@ ini_set('display_startup_errors',1);
 				}
 ?>
 		
-        
-        <?php
+       </div>
+</div> 
+        <?php 
         if ($_SESSION['isAdmin'] == 1 ){
-        echo '<p><input type="button" class="dob" value="Добавить" onclick="window.location.href = ';
-        echo "indexForAdding.php'";
-        echo ';"></p>';}
+			echo '<p><input type="button" class="dob" value="Добавить" onclick="window.location.href = ';
+			echo "'indexForAdding.php';";
+			echo '"></p>';
+		}
         ?>
-    </div>
-</div>
+        <script src="sort.js"></script>
+

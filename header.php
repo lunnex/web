@@ -9,17 +9,32 @@ session_start();
 <div class="Магазин_канцелярских_товаров">
 <p >Магазин канцелярских товаров</p>
 <p class="ВходРегистрация"> <img src="Картинки\1.png" style=" width: 20px; height: 20px; margin-right: 10px;">
-<button class = "enter" onclick="window.location.href = 'vhod.php';">Вход</button> <button class = "registration" onclick="window.location.href = 'regist.php';">Регистрация</button></p>
+<?php
+if ($_SESSION["isAuthorized"] == 0  ){
+	echo '<button class = "auth" onclick="window.location.href = ';
+	echo "'vhod.php'";
+	echo ';">Вход</button>';
+	
+	echo '<button class = "auth" onclick="window.location.href =';
+	echo "'regist.php';";
+	echo '">Регистрация</button></p>';
+}
+else{
+	echo '<button class = "auth" formaction = "exit.php" onclick="window.location.href = ';
+	echo "'exit.php'";
+	echo ';">Выход</button>';
+}
+
+?>
 </div>
 
     
 <div class="Knopki">
-<button class="Akc" onclick="Scroll1()">Акции</button>
-<button class="Hit" onclick="Scroll2()">Хиты продаж</button>
-<div style="float:right">
-</div>
+
+<button formaction = "getBasket.php" onclick="window.location.href = 'getBasket.php';" class="Hit">Корзина</button>
+
 </div>  
-    <button formaction = "getBasket.php" onclick="window.location.href = 'getBasket.php';" class="Korz">Корзина</button>
+    
 <div class="Block3">
     <div class="Block4">
 
@@ -32,10 +47,12 @@ session_start();
         <div class = "upper-menu-button-1" onmouseover='show(this)' onmouseout='hide(this)'>
                 <a href="#" class = "upper-menu-button-1-text">Каталог товаров</a>
                 <div class = "dropped-1">
-                    <a href="#" class = "dropped-href">Письменные товары, черчение</a>
-                    <a href="#" class = "dropped-href">Папки, системы архивации</a>
-                    <a href="#" class = "dropped-href">Офисные принадлежности</a>
-                    <a href="#" class = "dropped-href">Бумага для офисной техники</a>
+                    <a href="catalog1.php" class = "dropped-href" >Писменные товары, черчение</a>
+					<a href="catalog2.php" class = "dropped-href" >Папки, системы архивации</a>
+					<a href="catalog3.php" class = "dropped-href" >Творчество, хобби</a>
+					<a href="catalog4.php" class = "dropped-href" >Офисные принадлежности</a>
+					<a href="catalog5.php" class = "dropped-href" >Товары для учебы</a>
+					<a href="catalog6.php" class = "dropped-href" >Бумага для офисной техники</a>
                 </div>
             </div>
             
@@ -72,15 +89,15 @@ session_start();
             </div>
             
             <div class = "upper-menu-button-3">
-                <a href="#" class = "upper-menu-button-3-text">Вакансии</a>
+                <a href="vacancy.php" class = "upper-menu-button-3-text">Вакансии</a>
             </div>
             
             <div class = "upper-menu-button-4">
-                <a href="#" class = "upper-menu-button-4-text">Сотрудничество</a>
+                <a href="collaboration.php" class = "upper-menu-button-4-text">Сотрудничество</a>
             </div>
             
             <div class = "upper-menu-button-5">
-                <a href="#" class = "upper-menu-button-5-text">О нас</a>
+                <a href="aboutUs.php" class = "upper-menu-button-5-text">О нас</a>
             </div>
         
     </div>

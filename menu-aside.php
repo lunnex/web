@@ -10,7 +10,6 @@
 <div class = "menu-side">
 <a href="catalog1.php" class = "dropped-href" >Писменные товары, черчение</a>
 <a href="catalog2.php" class = "dropped-href" >Папки, системы архивации</a>
-<a href="index.php" class = "dropped-href" >Офисные принадлежности</a>
 <a href="catalog3.php" class = "dropped-href" >Творчество, хобби</a>
 <a href="catalog4.php" class = "dropped-href" >Офисные принадлежности</a>
 <a href="catalog5.php" class = "dropped-href" >Товары для учебы</a>

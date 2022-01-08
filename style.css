@@ -24,8 +24,22 @@
 .Knopki{
   display: block;
   border-top: 1px solid black;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
+  padding-bottom: 20px;
 } 
+
+.auth{
+border-width: 2px;
+  border-color: rgb(254, 201, 201);
+  border-style: solid;
+  border-radius: 29px;
+  background-color: rgb(254, 201, 201);
+  width: 100px;
+  height: 30px;
+  font-size: 16px;
+  font-family: "Century Gothic"; 
+  margin:5px;
+}
 
 .Akc{
   border-width: 2px;
@@ -57,8 +71,8 @@
   border-style: solid;
   border-radius: 29px;
   background-color: rgb(254, 201, 201);
-  width: 80px;
-  height: 30px;
+  width: 85px;
+  height: 40px;
   font-size: 14px;
   font-family: "Century Gothic"; 
   margin-top:5px;
@@ -76,6 +90,8 @@
   margin-left: 190px;
   font-size: 16px;
   font-family: "Century Gothic"; 
+  float:right;
+  margin-bottom:10px;
 }
 .city{
   border-width: 2px;
@@ -94,6 +110,8 @@
 
 }
 .Korz{
+
+
   border-width: 2px;
   border-color: rgb(254, 201, 201);
   border-style: solid;
@@ -103,13 +121,16 @@
   height: 30px;
   margin-top: 20px;
   margin-left: 0px;
+  float:right;
   font-size: 16px;
   font-family: "Century Gothic";
   margin-right: 30px;
+  
+  
 }
 .Block3{
   background-color: rgb(122, 204, 200);
-  height: 40px;
+  height: 20px;
   padding-top: 20px;
 }
 
@@ -122,6 +143,18 @@
     border-width: 0px;
     margin-right: 0px;
 }
+#sortByName{border-radius: 15px;
+    height: 30px;
+    border-width: 0px;
+    margin-right: 0px;
+    margin-bottom: 20px;}
+
+#sortByPrice{border-radius: 15px;
+    height: 30px;
+    border-width: 0px;
+    margin-right: 0px;
+    margin-bottom: 20px;}
+
 .Nait{
     border-radius: 15px;
     height: 30px;
@@ -302,7 +335,6 @@ img:nth-child(4){animation-delay:0}
 }
 
 .good{
-    height:300px; 
     width:245px; 
     float:left;
     border: 1px solid black;
@@ -316,7 +348,7 @@ img:nth-child(4){animation-delay:0}
 }
 .good p{
     text-align: center;
-    font-size: 12px;
+    font-size: 20px;
 
 }
 .good #dengi{
@@ -400,7 +432,8 @@ a.idTop {
 a.idTop:hover {
  opacity: 1;
 }
+
 #Strelka{
-    width: 40px;
-    height: 40px;
+width:40px;
+height: 40px;
 }

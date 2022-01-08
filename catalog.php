@@ -1,6 +1,8 @@
-
+<button id = "sortByName">Отсортировать по имени</button>
+<button id = "sortByPrice">Отсортировать по цене</button>
 <div class = "total-goods-container"
-    <h3>Новинки</h3>
+    <h2></h2>
+    
     <div class = "goods-container">
 			<?php
 			
@@ -32,16 +34,18 @@
 					echo '<img src = "';
 					echo $row['pic'];
 					echo '">';
-					echo '<p>';
+					echo '<p class = "name">';
 					echo $row['name'];
 					echo '</p>';
-					echo 'Кол-во';
-					echo '<input type="text" id="col" size="1px" placeholder="1" value =';
+					
+					echo '<p>';
+					echo 'Кол-во: ';
 					echo $row['quantity'];
-					echo '>';
-					echo '<p id="dengi">';
+					echo ' шт.';
+					echo '</p>';
+					echo '<p class="dengi">';
 					echo $row['price'];
-					echo 'руб</p>';
+					echo ' руб</p>';
 					
 					
 					
@@ -80,8 +84,14 @@
 				}
 ?>
 		
-        
-        
-        <p><input type="button" class="dob" value="Добавить" onclick="window.location.href = 'indexForAdding.php';"></p>
-    </div>
-</div>
+       </div>
+</div> 
+        <?php 
+        if ($_SESSION['isAdmin'] == 1 ){
+			echo '<p><input type="button" class="dob" value="Добавить" onclick="window.location.href = ';
+			echo "'indexForAdding.php';";
+			echo '"></p>';
+		}
+        ?>
+        <script src="sort.js"></script>
+

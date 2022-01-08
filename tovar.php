@@ -1,3 +1,21 @@
+<html>
+
+<html>
+<head>
+    
+<?php
+
+	require_once "head.php";
+	?>
+</head>
+	<body>
+	<?php
+	require_once "header.php";
+	?>
+	<?php
+	require_once "menu-aside.php";?>
+	
+
 <div class = "izm_tovar">
     <h3 style="padding-top:15px">Информация о товаре</h3>
     <form class = "form" action = 'changeGood.php' method = 'post'>
@@ -29,7 +47,7 @@
     <p class = "errorQuantity"></p>
     </p>
     
-    <p>Картинка товара <input type="text" class = "pic" name="pic"
+    <p>Картинка товара <input type="file" class = "pic" name="pic"
     <?php
     echo 'value = ';
     echo $_POST['pic'];
@@ -92,3 +110,9 @@
 
 </div>
 <script src="validator.js"></script>
+
+<?php
+	require_once "footer.php";
+	?>
+	</body>
+	</html>
